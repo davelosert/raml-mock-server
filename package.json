@@ -8,13 +8,6 @@
     "test:integration": "node_modules/.bin/mocha --opts test/mocha-integration.opts"
   },
   "dependencies": {
-    "@types/chai": "^3.5.2",
-    "@types/mocha": "^2.2.41",
-    "body-parser": "~1.17.1",
-    "chai": "^3.5.0",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
     "raml-1-parser": "^1.1.21"
   },
   "description": "A mock server to deliver examples of a yarn config file and more.",
@@ -22,7 +15,10 @@
   "author": "David Losert <david.losert@virtual-identity.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/mocha": "^2.2.41",
     "@types/node": "^7.0.21",
+    "chai": "^3.5.0",
     "mocha": "^3.4.1",
     "ts-node": "^3.0.4",
     "typescript": "^2.3.2"
